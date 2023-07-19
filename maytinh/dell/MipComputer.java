@@ -21,14 +21,14 @@ public class MipComputer {
     }
     static void input(List<MayTinh> lists) {
         System.out.println("Nhập 3 Apple:");
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("Nhập thông tin Apple thứ "+(i+1));
             Apple apple = new Apple();
             apple.inputInfor();
             lists.add(apple);
         }
         System.out.println("Nhập 3 Dell:");
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println("Nhập thông tin Dell thứ "+(i+1));
             Dell dell = new Dell();
             dell.inputInfor();
